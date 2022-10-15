@@ -32,7 +32,6 @@ requirements:
     - pydantic
     - pynacl
     - python-keycloak
-    - requests-toolbet <0.10.0
     - python-kubernetes
     - ruamel.yaml
     - azure-identity ==1.6.1
