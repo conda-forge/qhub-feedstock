@@ -38,7 +38,7 @@ requirements:
     - azure-mgmt-containerservice ==16.2.0
     - importlib_metadata
     - rich
-    - requests-toolbelt<0.10.0,>=0.9.1
+    - requests-toolbelt <0.10.0,>=0.9.1
     - typer
     - questionary
 
