@@ -1,5 +1,5 @@
 {% set name = "qhub" %}
-{% set version = "0.4.4" %}
+{% set version = "0.4.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qhub-{{ version }}.tar.gz
-  sha256: 7ed056ed83ae7ef63457b89f42d9c8de493303110771e2a84f23a55732cf8164
+  sha256: dd42e40dc7bdc9ee8b52c2a18d83884e74af0a88467f8fca6a950b9ca44514d4
 
 build:
   number: 0
@@ -38,6 +38,9 @@ requirements:
     - azure-mgmt-containerservice ==16.2.0
     - importlib_metadata
     - rich
+    - requests-toolbelt <0.10.0,>=0.9.1
+    - typer
+    - questionary
 
 test:
   imports:
